@@ -3,12 +3,14 @@ import {View, Text, StyleSheet} from 'react-native';
 // Components
 import Header from './Header';
 import Hero from './Hero';
+import LatestMembers from './latestMemebers';
 
 const App = () => {
   return (
     <View style={styles.container}>
       <Header />
       <Hero />
+      <LatestMembers />
     </View>
   )
 }
