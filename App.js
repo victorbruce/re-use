@@ -1,22 +1,10 @@
 import React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
-const App = () => {
-  return (
-    <View style={styles.container}>
-      <Text>Reuse</Text>
-      <Text>Your #1 store for thrift items</Text>
-    </View>
-  );
-};
+import ListingsScreen from "./app/screens/ListingsScreen";
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#ffffee",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
+function App() {
+  return <ListingsScreen />;
+}
 
 export default App;
